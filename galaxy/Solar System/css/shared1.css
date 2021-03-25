@@ -1,0 +1,55 @@
+
+<!DOCTYPE HTML>
+<Html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <title>The space Station | Resort</title>
+       <link rel="stylesheet" href=./css/shared.css">
+       <link rel="stylesheet" href=./css/animated.css">
+    </head>
+    <body>
+      
+         <!--NAV-->
+         <div class="wrap">
+             <div class-"menu-container">
+                 <ul class-"menu">
+                 <a href="#Home"><li>HOME</li></a>
+                 <a href="#gallery"><li>GALLERY</li></a>
+                 <a href="#contact"><li>RESERVATION</li></a>
+                 </ul>
+             </div>
+         </div>
+         <!--END NAV-->
+
+        <!--HOME-->
+        <div id-"home">
+            <div class="container>
+                <div class="text-center">
+                 <span class="head-main">The space station</span>
+               </div>
+            </div>
+         </div>
+    <--END HOME-->
+
+      <--GALLERY-->
+      <section id="gallery">
+         <div class="container">
+           <h1>Gallery</h1>
+           <div class="flex-container">
+
+               <!--PHOTO_CONTAINER 1-->
+               <div class="photo-container">
+                <div class="photo">
+                <img arc="./images/thumb.thumnail_.png" alt="">
+                <div class-"photo-overlay">
+                    <h3 class-"white-head'>Click to Enlarge</h3>
+                    <p>We have several space launches departing daily.book your flight today!</p>
+                    </div>      
+                </div>
+               </div> 
+
+
+
+                    
+
+

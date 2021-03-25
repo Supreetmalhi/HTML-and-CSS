@@ -1,0 +1,61 @@
+html {
+    font-family: Harrington;
+    font-size: 70%;
+}
+
+body{
+    font-family: Harrington;
+    font-size: 18px;
+}
+
+.menu{
+    font: bold 12px/18px Harrington;
+    margin: 1% auto;
+}
+
+.head-main{
+    font-family: HARRINGTON;
+    font-size: 3.5em;
+}
+.reservation form{
+    font-size: 17px;
+    width: 80%;
+    border: 2px dotted #808080;
+    margin: 5% auto;
+    border-radius: 8px;
+    font-family: Harrington;
+}
+.reservation input[type="text"] {
+    font-size: 17px;
+    width: 85%;
+    border top:1px dotted #090B0D;
+    border-right: 2px dotted #424549;
+    border-bottom: 2px dotted #424549;
+    border-left:1px, dotted #090BOD;
+    margin: 15px 1.5em;
+    border-radius: 9px;
+    font-family:Harrington;
+}
+.terms {
+    font-size: 16px; 
+    font-family: Harrington;
+}
+.submit input[type="submit"] {
+    
+    border: dotted;
+    font-family: Harrington;
+    margin: 1px,4%;
+    width:35%;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+.reservation h2 span{
+    width: 90%;
+    border: dotted;
+    text-align: center;
+    margin: 1 auto;
+    font-size: 1.8em;
+}
+
+

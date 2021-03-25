@@ -3,10 +3,8 @@
                          */
  .menu {
      color:#f00;
-     font: bold 12px/18px sans-serif;
      text-align: center;
      display: inline;
-     margin: 0% auto;
      padding: 0;
      list-style:  none;
      text-decoration: none;
