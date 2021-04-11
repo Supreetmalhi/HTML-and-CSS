@@ -8,6 +8,7 @@
          <link rel="stylesheet" href=" ./css/Animations.css">
     </head>
     <body>
+      
        
          <!-- NAV-->
          <div class="wrap">
@@ -15,6 +16,7 @@
                   <ul class="menu">
                        <a href="#home"><li>HOME</li></a>
                        <a href="#gallery"><li>GALLERY</li></a>
+                       <a href="#slideshow"><li>SLIDESHOW</li></a>
                        <a href="#contact"><li>RESERVATION</li></a>
                 </ul>
             </div>
@@ -150,6 +152,98 @@
          </section>
          <!--END GALLERY-->
 
+
+
+
+
+
+
+
+
+
+         <!--GALLERY-->
+         <section id="slideshow">
+               <h1>Slideshow</h1>
+
+               <div class="row">
+                  <div class="column">
+                    <img src="./images/Mercury_Final.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                  </div>
+                  <div class="column">
+                    <img src="./images/Neptune_Final.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                  </div>
+                  <div class="column">
+                    <img src="./images/Venus_Final.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                  </div>
+                  <div class="column">
+                    <img src="./images/Uranus_Final.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                  </div>
+                </div>
+
+
+                <div id="myModal" class="modal">
+                  <span class="close cursor" onclick="closeModal()">&times;</span>
+                  <div class="modal-content">
+                
+                    <div class="mySlides">
+                      <div class="numbertext">1 / 4</div>
+                      <img src="./images/Mercury_Final.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 4</div>
+                      <img src="./images/Neptune_Final.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 4</div>
+                      <img src="./images/Venus_Final.jpg" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 4</div>
+                      <img src="./images/Uranus_Final.jpg" style="width:100%">
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                    <div class="caption-container">
+                      <p id="caption"></p>
+                    </div>
+                
+                
+                    <div class="column">
+                      <img class="demo cursor" src="./images/Mercury_Final.jpg" style="width:100%" onclick="currentSlide(1)" alt="Mercury">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="./images/Neptune_Final.jpg" style="width:100%" onclick="currentSlide(2)" alt="Neptune">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="./images/Venus_Final.jpg" style="width:100%" onclick="currentSlide(3)" alt="Venus">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="./images/Uranus_Final.jpg" style="width:100%" onclick="currentSlide(4)" alt="Uranus">
+                    </div>
+                  </div>
+                </div>
+                
+         </section>
+       <!--END GALLERY-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
          <!--RSVP-->
          <section id="contact">
             <div class="container">
@@ -190,7 +284,8 @@
                         www.thespacestation.space &nbsp;|&nbsp; &copy; 2017
                      </div>
                      <!--END FOOTER-->
-
+                     <Script src="./js/One_Page_Website.js"></Script>
+                 
    </body>
 </html>
 
